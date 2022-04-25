@@ -1,2 +1,2 @@
 # system64.neocities.org
-Source code for my Neocities website in-case anyone else wants to make their own Caard-like home page.
+This is the source code for my site live at system64.neocities.org
