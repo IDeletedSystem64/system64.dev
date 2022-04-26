@@ -10,7 +10,7 @@ jobs:
       - run: echo "Yooo new site update, I gotchu."
       - name: Use Node.JS :)
         uses: actions/setup-node@v1
-          with: 
+        with: 
             node-version: 12
       - name: Install dependents and build.
         run: | 
