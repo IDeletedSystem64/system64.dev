@@ -1,25 +1,35 @@
-name: Deploy to Neocities
+name: Deploy to neocities
+
+# only run on changes to master
 on:
   push:
     branches:
       - system64.neocities.org
+
+concurrency: # prevent concurrent deploys doing strange things
+  group: deploy-to-neocities
+  cancel-in-progress: true
+
 jobs:
-  Deploy:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - run: echo "Yooo new site update, I gotchu."
-      - name: Use Node.JS :)
-        uses: actions/setup-node@v1
-        with: 
-            node-version: 12
-      - name: Install dependents and build.
-        run: | 
-          npm i
-          npm run build
-      - name: Deploy to Neocities
-        uses: bcomnes/deploy-to-neocities@v1.1.4
-        with:
-          api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
-          cleanup: false
-          dist_dir: public
-       - run: echo "Done!"
+    - uses: actions/checkout@v1
+    # Set up any tools and build steps here
+    # This example uses a Node.js toolchain to build a site
+    - name: Use Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 12
+    - name: Install deps and build
+      run: |
+        npm i
+        npm run build
+    # When the dist_dir is ready, deploy it to neocities
+    - name: Deploy to neocities
+      uses: bcomnes/deploy-to-neocities@v1
+      with:
+        api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
+        cleanup: false
+        dist_dir: public
