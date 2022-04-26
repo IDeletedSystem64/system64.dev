@@ -58,7 +58,7 @@ input:active {
 /* I'm mad that I have to make this mobile-compatible, Lol. https://twitter.com/IDeleteSystem64/status/1512218098325147655?s=20&t=Hz4V-vxmywYwTMvuBbCAZQ */
 @media only screen and (max-width: 980px) {
     p.intro {
-        font-size: 10vw;
+        font-size: 8vw;
     }
     header { 
         height: 75px;
@@ -67,11 +67,16 @@ input:active {
         font-size: 60px;
         padding-left: 25%;
     }
-   
     input {
         font-size: 7vw;
         min-width: 110%;
         max-width: 110%;
         /* I lack the understanding as to why I have to set a mix/max, but its also nearly midnight as I'm writing this and I should probably go to bed. */
     }   
+    p.info {
+        font-family: 'Share Tech Mono', monospace;
+        color: white;
+        font-size: 5vw;
+        text-align: center;
+    }
 }
