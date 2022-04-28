@@ -30,6 +30,7 @@ p.info {
 }
 div.main {
     top: 10%;
+    
     right: 25%;
     position: fixed;
     margin: auto;
@@ -53,6 +54,10 @@ input {
 input:active {
     background: #acacac;
     box-shadow: inset 0em 0em
+}
+img.githubico {
+    left: 49%;
+    position: fixed;
 }
 
 /* I'm mad that I have to make this mobile-compatible, Lol. https://twitter.com/IDeleteSystem64/status/1512218098325147655?s=20&t=Hz4V-vxmywYwTMvuBbCAZQ */
