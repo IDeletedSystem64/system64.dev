@@ -30,7 +30,6 @@ p.info {
 }
 div.main {
     top: 10%;
-    
     right: 25%;
     position: fixed;
     margin: auto;
@@ -42,6 +41,7 @@ body {
     background-image: url("/img/bg.png");
 }
 input {
+    -webkit-appearance: none;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -85,3 +85,4 @@ img.githubico {
         text-align: center;
     }
 }
+/* Pronouns page stoof */
