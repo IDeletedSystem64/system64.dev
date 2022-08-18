@@ -49,6 +49,7 @@ input {
     background: #dad9d9;
     font-size: 170%;
     font-family: 'Share Tech Mono', monospace;
+    color: black;
     box-shadow: inset -0.05em -0.05em black
 }
 input:active {
@@ -61,7 +62,6 @@ a {
 }
 .button {
     display: inline-flex;
-
     font-size: 16px;
     text-align: center;
     border: none;
@@ -128,16 +128,16 @@ img.githubico {
         padding-left: 25%;
     }
     input {
+        margin-left: -10%;
         font-size: 7vw;
     	-webkit-text-size-adjust:100%;
-        min-width: 110%;
-        max-width: 110%;
-        /* I lack the understanding as to why I have to set a mix/max, but its also nearly midnight as I'm writing this and I should probably go to bed. */
+        min-width: 125%;
+        max-width: 125;
     }   
     p.info {
         font-family: 'Share Tech Mono', monospace;
         color: white;
-        font-size: 5vw;
+        font-size: 4.5vw;
         text-align: center;
     }
 }
