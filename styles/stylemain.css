@@ -34,7 +34,7 @@ div.main {
     position: fixed;
     margin: auto;
     width: 50%;
-    padding: 5px;
+    padding: 10px;
     border-radius: 30px;
 }
 body {
@@ -111,7 +111,7 @@ a {
 }
 
 img.githubico {
-    left: 49%;
+    left: 47.5%;
     position: fixed;
 }
 
