@@ -147,4 +147,13 @@ img.webbutton{
         font-size: 4.5vw;
         text-align: center;
     }
+    img.webbutton {
+        width: 176px;
+        height: 62px;
+        float: left;
+    }
+    div.webbutton {
+        width: 100%;
+        padding-left: 15%;
+    }
 }
