@@ -1,2 +1,2 @@
-# system64.neocities.org
-This is the source code for my site live at system64.neocities.org
+# system64.neocities.org v2
+The eventual successor to the current website, being a rewrite to make it more of a personal website than just my links to socials and other places.
