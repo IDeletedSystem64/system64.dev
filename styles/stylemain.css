@@ -109,15 +109,23 @@ a {
     background-color: #ACACAC;
 }
 
-img.githubico {
-    left: 47.5%;
-    position: fixed;
+div.webbutton {
+    margin: auto; 
+    width: 264px;
+    padding-top: 3px;
+}
+img.webbutton{
+    width: 88px;
+    height: 31px;
+    float: left;
+    text-align: center;
 }
 
 /* I'm mad that I have to make this mobile-compatible, Lol. https://twitter.com/IDeleteSystem64/status/1512218098325147655?s=20&t=Hz4V-vxmywYwTMvuBbCAZQ */
 @media only screen and (max-width: 980px) {
     p.intro {
         font-size: 8vw;
+        padding-top: 10px;
     }
     header { 
         height: 75px;
@@ -140,4 +148,3 @@ img.githubico {
         text-align: center;
     }
 }
-/* Pronouns page stoof */
