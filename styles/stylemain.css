@@ -3,7 +3,7 @@
 /* Import Fonts */
 
 header {
-    background: linear-gradient(#072CFF, #00137F );
+    background: linear-gradient(#072CFF, #0e26ae );
     position: absolute;
     left: 0px;
     top: 0px;
@@ -16,11 +16,13 @@ h1.header {
     color: white;
     display: inline;
 }
+/* Header / Menubar */
+
 p.intro {
     font-family: 'Share Tech Mono', monospace;
     color: white;
-    font-size: 2.5vw;
-    text-align: center;
+    font-size: 3vw;
+    padding-top: 12.5%;
 }
 p.info {
     font-family: 'Share Tech Mono', monospace;
@@ -29,16 +31,13 @@ p.info {
     text-align: center;
 }
 div.main {
-    top: 10%;
-    right: 25%;
+    width: 75%;
     margin: auto;
-    width: 50%;
-    padding: 10px;
-    border-radius: 30px;
 }
 body {
     background-image: url("/img/bg.jpg");
 }
+/* Main content as well as website background */
 input {
     -webkit-appearance: none;
     margin-left: auto;
@@ -56,9 +55,6 @@ input:active {
     box-shadow: inset 0em 0em
 }
 
-a {
-    text-decoration: none;
-}
 .button {
     display: inline-flex;
     font-size: 16px;
@@ -120,7 +116,11 @@ img.webbutton{
     float: left;
     text-align: center;
 }
+/* Button */
 
+a {
+    text-decoration: none;
+}
 /* I'm mad that I have to make this mobile-compatible, Lol. https://twitter.com/IDeleteSystem64/status/1512218098325147655?s=20&t=Hz4V-vxmywYwTMvuBbCAZQ */
 @media only screen and (max-width: 980px) {
     p.intro {
@@ -145,7 +145,7 @@ img.webbutton{
         font-family: 'Share Tech Mono', monospace;
         color: white;
         font-size: 4.5vw;
-        text-align: center;
+        
     }
     img.webbutton {
         width: 176px;
