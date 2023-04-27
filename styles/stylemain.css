@@ -36,14 +36,21 @@ body {
 }
 
 .container {
-    height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 div.main {
-    margin-top: 30vh;
-    margin-left: 10vh;
+    height: 100%;
+    align-items: center;
+    margin: auto;
+}
+
+img.home {
+    height: 70vh;
+    width: auto;
+    align-self: center;
+    padding: 5%;
 }
 /* Website layout */
 
@@ -56,6 +63,7 @@ img.webbutton{
 /* Web buttons :) */
 
   /* Did you know: I wish I wasn't doing this right now? */
+  /* Better web site for mobile users coming soon(tm) */
   @media (max-width: 64em) {
     h1 {
         font-size: 56pt;
@@ -67,11 +75,14 @@ img.webbutton{
         font-size: 26pt;
     }
     div.main {
-        margin-left: 0vh;
+        margin-top: 35vh;
     }
     .container {
         flex-wrap: wrap;
         align-items: center;
+    }
+    img.home {
+        display: none;
     }
   }
   
