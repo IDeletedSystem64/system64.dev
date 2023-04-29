@@ -10,6 +10,7 @@ input {
     background: #dad9d9;
     box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
 
+    min-width:  200px;
     min-height: 16px;
     
     color: black;
@@ -18,7 +19,8 @@ input {
 }
 input.taskbar {
     background: #c3c3c3 url(/img/taskbar/blueberry_pt.png) left no-repeat;
-    padding-left: 18px;
+    background-position: 2px;
+    padding-left: 25px;
     box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
 
     font-family: 'Share Tech Mono', monospace;
@@ -29,6 +31,10 @@ input.taskbar {
     margin-left: 2px;
 }
 
+input.taskbar:active {
+    background: #acacac url(/img/taskbar/blueberry_pt.png) left no-repeat; 
+    background-position: 2px;
+}
 input:active {
     background: #acacac;
     box-shadow: inset 0em 0em
