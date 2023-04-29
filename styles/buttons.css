@@ -18,15 +18,16 @@ input {
     font-family: 'Share Tech Mono', monospace;
 }
 input.taskbar {
-    background: #c3c3c3 url(/img/taskbar/blueberry_pt.png) left no-repeat;
-    background-position: 2px;
-    padding-left: 25px;
+    
+    background: #c3c3c3;
     box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
 
     font-family: 'Share Tech Mono', monospace;
     font-size: 13pt;
 
-    min-width: 130px;
+    height: 27px;
+    min-width: 170px;
+    max-width: 230px;
     margin-top: 1px;
     margin-left: 2px;
 }
