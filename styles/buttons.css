@@ -10,12 +10,23 @@ input {
     background: #dad9d9;
     box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
 
-    min-width: 200px;
     min-height: 16px;
     
     color: black;
     font-size: 17pt;
     font-family: 'Share Tech Mono', monospace;
+}
+input.taskbar {
+    background: #c3c3c3 url(/img/taskbar/blueberry_pt.png) left no-repeat;
+    padding-left: 18px;
+    box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
+
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 13pt;
+
+    min-width: 130px;
+    margin-top: 1px;
+    margin-left: 2px;
 }
 
 input:active {

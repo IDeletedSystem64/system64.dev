@@ -52,6 +52,15 @@ img.home {
     align-self: center;
     padding: 5%;
 }
+
+div.taskbar {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: #c3c3c3 ;
+}
 /* Website layout */
 
 img.webbutton{
