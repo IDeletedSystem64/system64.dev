@@ -23,8 +23,13 @@ p.tiny {
     text-align: center;
     float: bottom;
 }
+a {
+    color: white;
+    font-family: 'Bitter', serif;
+}
+
 body {
-    background: linear-gradient(45deg, rgb(0, 14, 55), rgb(2, 0, 136));
+    background-image: url("/img/bg.jpg");
     background-repeat: no-repeat;
     height: 100%;
 }
@@ -42,6 +47,7 @@ img {
 
 input {
     -webkit-appearance: none;
+    appearance: none;
     margin-left: auto;
     margin-right: auto;
     display: block;
