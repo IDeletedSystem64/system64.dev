@@ -1,5 +1,5 @@
 /* CSS for System64.dev buttons, by IDeletedSystem64. Under MIT License (v4.14.23) */
-/* Heavily based from 98css, Check it out here: https://jdan.github.io/98.css/ */
+/* Loosely based from 98css, Check it out here: https://jdan.github.io/98.css/ */
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 /* Import dem fonts */
@@ -22,8 +22,9 @@ input.taskbar {
     background: #c3c3c3;
     box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
 
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech Mono', 'monospace';
     font-size: 13pt;
+    font-weight: bold;
 
     height: 27px;
     min-width: 170px;
@@ -33,7 +34,7 @@ input.taskbar {
 }
 
 input.taskbar:active {
-    background: #acacac url(/img/taskbar/blueberry_pt.png) left no-repeat; 
+    background: #acacac; 
     background-position: 2px;
 }
 input:active {
