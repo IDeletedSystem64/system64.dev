@@ -1,0 +1,100 @@
+/* CSS for System64.dev v2, by IDeletedSystem64. Under MIT License (v6.5.23) */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap'); /* Bitter */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'); /* Share Tech Mono */
+/* Import dem fonts */
+
+button.home {
+    font-family: 'Share Tech Mono', monospace; 
+    color: white;
+    /* font-size: */ 
+    display: inline;
+}
+
+h1 {
+    font-family: 'Bitter', serif;
+    color: white;
+    display: inline;
+    font-size: 26pt
+}
+
+h2 {
+    font-family: 'Bitter', serif;
+    color: white;
+    font-size: 16pt;
+}
+
+li {
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+    font-size: 15pt;
+    list-style-type: square;
+}
+/* Text based stuffs */
+
+body {
+    background-image: url("/img/bg.jpg");
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+div.main {
+    height: 100%;
+    align-items: center;
+    margin: auto;
+}
+
+img.home {
+    height: 70vh;
+    width: auto;
+    align-self: center;
+    padding: 5%;
+}
+
+div.taskbar {
+    position: absolute;
+    
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    
+    height: 30px;
+    background-color: #c3c3c3;
+    box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #c3c3c3,inset -2px -2px grey,inset 2px 2px #dfdfdf;
+}
+/* Website layout */
+
+img.webbutton{
+    width: 88px;
+    height: 31px;
+    float: left;
+    text-align: center;
+}
+/* Web buttons :) */
+
+  /* Did you know: I wish I wasn't doing this right now? */
+  /* Better web site for mobile users coming soon(tm) */
+  @media (max-width: 64em) {
+    h1 {
+        font-size: 56pt;
+    }
+    h2 {
+        font-size: 28pt;
+    }
+    li {
+        font-size: 26pt;
+    }
+    div.main {
+        margin-top: 35vh;
+    }
+    .container {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    img.home {
+        display: none;
+    }
+  }
+  
