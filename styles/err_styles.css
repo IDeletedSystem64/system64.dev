@@ -40,10 +40,8 @@ p {
     text-align: center;
 }
 p.tiny {
-    font-family: 'Bitter', serif;
     font-size: 12px;
-    color: white;
-    text-align: center;
+    margin-top: -5px;
 }
 a {
     color: white;
