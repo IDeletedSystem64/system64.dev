@@ -29,6 +29,16 @@ li {
     font-size: 15pt;
     list-style-type: square;
 }
+
+p {
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+}
+
+a {
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+}
 /* Text based stuffs */
 
 body {
@@ -41,9 +51,8 @@ body {
 }
 
 div.main {
-    height: 100%;
     align-items: center;
-    margin: auto;
+    margin: 30vh auto auto 10vw;
 }
 
 img.home {
