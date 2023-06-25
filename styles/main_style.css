@@ -32,17 +32,23 @@ li {
 
 p {
     font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    font-size: 18px; 
+
     color: white;
 }
 
 a {
     font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;;
+    font-size: 18px; 
+
     color: white;
 }
 /* Text based stuffs */
 
 body {
-    background-image: url("/img/bg.jpg");
+    background-image: url("/img/bg_avif.avif"); /* May add a fallback to the previous jpeg variant in the future. */
 }
 
 .container {
