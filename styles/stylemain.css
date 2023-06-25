@@ -37,7 +37,7 @@ div.main {
     border-radius: 30px;
 }
 body {
-    background-image: url("/img/bg.jpg");
+    background-image: url("/img/bg_avif.avif"); /* If need be, I'll figure out a way to change this for devices that don't support AVIF */
 }
 input {
     -webkit-appearance: none;
