@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@font-face { font-family: 'Share Tech'; src: url(../fonts/Share-Tech/ShareTech-Regular.ttf) format('woff2'); }
+@font-face { font-family: 'Share Tech Mono'; src: url(../fonts/Share-Tech/ShareTechMono-Regular.ttf) format('woff2'); }
+@font-face { font-family: 'Bitter'; src: url(../fonts/Bitter/Bitter-VariableFont_wght.ttf) format('woff2'); }
 /* Import Fonts */
 
 header {
@@ -13,17 +14,19 @@ header {
 h1.header {
     padding: 32px;
     font-family: 'Bitter', serif;
+    font-weight: 600;
     color: white;
     display: inline;
 }
 p.intro {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech', serif;
     color: white;
     font-size: 2.5vw;
     text-align: center;
+
 }
 p.info {
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech', serif;
     color: white;
     font-size: 1.25vw;
     text-align: center;
@@ -47,7 +50,7 @@ input {
     min-width: 250px;
     background: #dad9d9;
     font-size: 170%;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech Mono', serif;
     color: black;
     box-shadow: inset -0.05em -0.05em black
 }
