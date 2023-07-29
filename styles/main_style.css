@@ -1,6 +1,8 @@
 /* CSS for System64.dev v2, by IDeletedSystem64. Under MIT License (v6.5.23) */
-@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&display=swap'); /* Bitter */
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap'); /* Share Tech Mono */
+@font-face { font-family: 'Share Tech'; src: url(../fonts/Share-Tech/ShareTech-Regular.ttf) format('woff2'); }
+@font-face { font-family: 'Share Tech Mono'; src: url(../fonts/Share-Tech/ShareTechMono-Regular.ttf) format('woff2'); }
+@font-face { font-family: 'Bitter'; src: url(../fonts/Bitter/Bitter-VariableFont_wght.ttf) format('woff2'); }
+
 /* Import dem fonts */
 
 button.home {
@@ -58,14 +60,15 @@ body {
 
 div.main {
     align-items: center;
-    margin: 30vh auto auto 10vw;
+    margin: 35vh auto auto 10vw;
 }
 
 img.home {
     height: 70vh;
     width: auto;
     align-self: center;
-    padding: 5%;
+    padding-right: 5vw;
+    padding-top: 10vh;
 }
 
 div.taskbar {
@@ -91,7 +94,6 @@ img.webbutton{
 /* Web buttons :) */
 
   /* Did you know: I wish I wasn't doing this right now? */
-  /* Better web site for mobile users coming soon(tm) */
   @media (max-width: 64em) {
     h1 {
         font-size: 56pt;
