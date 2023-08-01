@@ -19,9 +19,8 @@ input {
     background: #c3c3c3;
     box-shadow: inset -1px -1px #0a0a0a,inset 1px 1px #fff,inset -2px -2px grey,inset 2px 2px #dfdfdf;
 
-    top: -1px;
     min-width: 200px; 
-    min-height: 16px;
+    min-height: 32px;
     
     font-family: 'Share Tech Mono', 'monospace';
     font-size: 13pt;
@@ -29,7 +28,7 @@ input {
 }
 
 input:active {
-    background: #dadada;
+    background: #b5b5b5;
     box-shadow: inset 0em 0em;
 }
 
@@ -37,7 +36,7 @@ input:active {
 
 input.start {
     /* Yes, the home button is called the "Start" button inside, sue us, Microsoft! */
-    height: 29px;
+    min-height: 29px;
     min-width: 130px;
     max-width: 230px;
 
@@ -49,7 +48,7 @@ input.start {
 
 
 input.taskbar{
-    height: 29px;
+    min-height: 29px;
     min-width: 170px;
     max-width: 230px;
 }
