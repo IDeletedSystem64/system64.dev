@@ -1,4 +1,4 @@
-/* CSS for System64.dev v2, by IDeletedSystem64. Under MIT License (v7.29.23) */
+/* CSS for System64.dev v2, by IDeletedSystem64. Under MIT License (v8.11.23) */
 @font-face { font-family: 'Share Tech'; src: url(../fonts/Share-Tech/ShareTech-Regular.ttf) format('woff2'); }
 @font-face { font-family: 'Share Tech Mono'; src: url(../fonts/Share-Tech/ShareTechMono-Regular.ttf) format('woff2'); }
 @font-face { font-family: 'Bitter'; src: url(../fonts/Bitter/Bitter-VariableFont_wght.ttf) format('woff2'); }
@@ -93,7 +93,8 @@ img.webbutton{
 }
 /* Web buttons :) */
 
-  /* Did you know: I wish I wasn't doing this right now? */
+  /* REEEE MOBILE DEVICES */
+
   @media (max-width: 64em) {
     h1 {
         font-size: 56pt;
@@ -114,5 +115,11 @@ img.webbutton{
     img.home {
         display: none;
     }
+    div.taskbar {
+        height: 4.5vh;
+    }
   }
   
+
+
+

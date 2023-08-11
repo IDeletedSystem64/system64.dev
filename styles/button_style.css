@@ -52,3 +52,28 @@ input.taskbar{
     min-width: 170px;
     max-width: 230px;
 }
+
+/* Mobile "Support" :( */
+
+@media (max-width: 64em) {
+input {
+    font-size: 20pt;
+    
+    min-height: 3.5vh;
+    min-width: 22.5vw;
+}
+input.start {
+    background: none;
+
+    padding: 7px;
+    min-height: 4.5vh;
+    min-width: 17vw;
+    
+}
+input.taskbar {
+    padding: 7px;
+
+    min-width: 19.7vw;
+    min-height: 4.5vh;
+}
+}
