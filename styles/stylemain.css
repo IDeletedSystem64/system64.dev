@@ -39,6 +39,11 @@ div.main {
     padding: 10px;
     border-radius: 30px;
 }
+a.blueheart { /* probably not the right way of doing things, but this css is awful and i cannot comprehend it for the life of me anymore... -64 */
+    margin: auto;
+    padding-top: 100px;
+    width: 60%;
+}
 body {
     background-image: url("/img/bg_avif.avif"); /* If need be, I'll figure out a way to change this for devices that don't support AVIF */
 }
