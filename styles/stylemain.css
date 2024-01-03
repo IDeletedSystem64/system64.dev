@@ -45,7 +45,7 @@ a.blueheart { /* probably not the right way of doing things, but this css is awf
     width: 60%;
 }
 body {
-    background-image: url("/img/bg_avif.avif"); /* If need be, I'll figure out a way to change this for devices that don't support AVIF */
+    background-image: url("https://img.system64.dev/web/bg/bg.jpg"); 
 }
 input {
     -webkit-appearance: none;
@@ -129,7 +129,7 @@ img.webbutton{
     text-align: center;
 }
 
-/* I'm mad that I have to make this mobile-compatible, Lol. https://twitter.com/IDeleteSystem64/status/1512218098325147655?s=20&t=Hz4V-vxmywYwTMvuBbCAZQ */
+/* I'm mad that I have to make this mobile-compatible, Lol. https://web.archive.org/web/20220407235806/https://twitter.com/IDeleteSystem64/status/1512218098325147655 */
 @media only screen and (max-width: 980px) {
     p.intro {
         font-size: 8vw;
