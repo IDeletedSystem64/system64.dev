@@ -50,7 +50,7 @@ a {
 /* Text based stuffs */
 
 body {
-    background-image: url("/img/bg_avif.avif"); /* May add a fallback to the previous jpeg variant in the future. */
+    background-image: url("https://img.system64.dev/web/bg/bg.jpg"); /* nevermind we're just gonna use a jpg */
 }
 
 .container {
