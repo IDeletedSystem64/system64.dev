@@ -1,0 +1,61 @@
+/* Moving window stuff here to make it easier to work with */
+@font-face { font-family: 'Share Tech'; src: url(../fonts/Share-Tech/ShareTech-Regular.ttf) format('woff2'); }
+@font-face { font-family: 'Share Tech Mono'; src: url(../fonts/Share-Tech/ShareTechMono-Regular.ttf) format('woff2'); }
+@font-face { font-family: 'Bitter'; src: url(../fonts/Bitter/Bitter-VariableFont_wght.ttf) format('woff2'); }
+
+/* Probably not the right way to do it, but eh. We can come back to this later.*/
+
+
+div.window_titlebar {
+    position: absolute;
+
+    left: 0px;
+    top: 0px;
+    width: 100%;
+
+    height: 22px;
+    background: navy;
+}
+
+div.window {
+    position: relative;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #e9e9e9;
+    
+    overflow-y: auto;
+    width: 40vw;
+    max-width: 80vw;
+    padding-top: 4vh;
+    padding-bottom: 1vh;
+    padding-left: 1vh;
+
+    max-height: 60vh;
+    background-color: #e9e9e9;
+
+    margin: 10vh 1vh auto 25vh;
+
+}
+
+img {
+    float: right;
+}
+/* Fonts */
+h1 {
+    font-family: 'Bitter', serif;
+    font-size: 20pt;
+
+    color: black
+}
+
+p { color: black }
+li { color: black }
+
+h3.window {
+    color: white;
+
+    display: inline;
+    padding-left: 2px;
+    font-family: 'Bitter', serif;
+    font-size: 11pt;
+}
