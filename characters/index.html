@@ -20,8 +20,8 @@
         <input class="taskbar" type="button" onclick="location.href='../characters/index.html';" value="Characters">
         <input class="taskbar" type="button" onclick="location.href='https://git.system64.dev'" value="Code (Gitea)">
     </div> 
-    <div class="container">
-        <div class="window">
+    <div class="container" style="flex-direction: column; display:inline-flex">
+        <div class="window char-window">
             <div class="window_titlebar"><h3 class="window">Technocolor (Pony)</h3></div>
             <img src="preview/ponytown_technocolor.png">
             <h1>Technocolor</h1>
@@ -33,8 +33,32 @@
            </ul>
            <input type="button" onclick="location.href='refsheet/technocolor_refsheetv1.png';" value="Get the refsheet">
         </div>
-    <!-- trying something with putting this outside the flexbox.. --> 
-    <div class="window" style="width:45vh; float:right;">
+        <div class="window char-window">
+            <div class="window_titlebar"><h3 class="window">Technocolor (Pony)</h3></div>
+            <img src="preview/ponytown_technocolor.png">
+            <h1>Technocolor 2</h1>
+            <p>no way, a second one!</p>
+           <ul>
+            <li>Trans (FtM)</li>
+            <li>Alicorn</li>
+            <li>Music pony</li>
+           </ul>
+           <input type="button" onclick="location.href='refsheet/technocolor_refsheetv1.png';" value="Get the refsheet">
+        </div>
+        <div class="window char-window">
+            <div class="window_titlebar"><h3 class="window">Technocolor (Pony)</h3></div>
+            <img src="preview/ponytown_technocolor.png">
+            <h1>Technocolor 3</h1>
+            <p>what the fuck, three????</p>
+           <ul>
+            <li>Trans (FtM)</li>
+            <li>Alicorn</li>
+            <li>Music pony</li>
+           </ul>
+           <input type="button" onclick="location.href='refsheet/technocolor_refsheetv1.png';" value="Get the refsheet">
+        </div>
+    </div>
+    <div class="window" id="char-sidebar" style="width:45vh;">
         <div class="window_titlebar"><h3 class="window">Can I draw your characters?</h3></div>
         <h1>Absolutely!</h1>
         <p>Anyone can draw my characters, there's not much that makes me happier than seeing art of my characters. It doesn't even have to be the greatest!</p>

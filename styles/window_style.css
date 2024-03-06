@@ -23,20 +23,29 @@ div.window {
     border-width: 5px;
     border-color: #e9e9e9;
     
-    overflow-y: auto;
-    width: 40vw;
-    max-width: 80vw;
+    overflow-y: auto; /* I don't even know what this does, or why it's here... */
+
     padding-top: 4vh;
     padding-bottom: 1vh;
     padding-left: 1vh;
 
-    max-height: 60vh;
+   
     background-color: #e9e9e9;
-
-    margin: 10vh 1vh auto 25vh;
-
+    margin-left: 25vh;
+    margin-top: 10vh;
 }
 
+.char-window {
+    width: 40vw;
+    max-width: 60vw;
+    max-height: 60vh;
+}
+/* I don't know what I'm doing :D */
+#char-sidebar {
+    float: right;
+    margin-right: 25vh;
+    margin-left: auto;
+}
 img {
     float: right;
 }

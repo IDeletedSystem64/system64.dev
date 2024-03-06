@@ -55,7 +55,6 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
 }
 
 div.main {
